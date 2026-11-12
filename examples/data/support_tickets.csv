@@ -1,0 +1,6 @@
+ticket_id,created_at,customer_message
+T-1001,2026-11-02,"Refund not received. My UPI is ravi.kumar@okaxis and phone +91 98765 43210"
+T-1002,2026-11-03,"KYC failed, PAN ABCPK1234F, Aadhaar 2345 6789 0124"
+T-1003,2026-11-04,"Card 4111 1111 1111 1111 charged twice, please call 09812345678"
+T-1004,2026-11-05,"Order 2026110512345 delayed, contact priya.s@example.com"
+T-1005,2026-11-06,"Invoice for GSTIN 27ABCPK1234F1Z5, bank IFSC HDFC0001234"

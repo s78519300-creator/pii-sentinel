@@ -1,0 +1,4 @@
+2026-11-06 10:02:11 INFO  login ok user_id=8812 ip=203.0.113.45
+2026-11-06 10:02:15 INFO  payment initiated amount=499.00 vpa=neha99@ybl
+2026-11-06 10:02:16 WARN  retry 3 of 5 for request 7f3a9c, trace=1234 5678 9012
+2026-11-06 10:02:20 INFO  build 1.24.3 deployed to 10.0.4.17
