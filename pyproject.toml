@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pii-sentinel"
+version = "0.1.0"
+description = "Find and mask personal data in logs, CSVs and LLM training data, including Aadhaar, PAN, UPI IDs and Indian phone numbers."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Shalu Kumari" }]
+requires-python = ">=3.9"
+keywords = ["pii", "privacy", "data-quality", "aadhaar", "dpdp", "redaction", "sarif"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Security",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.scripts]
+pii-sentinel = "pii_sentinel.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
